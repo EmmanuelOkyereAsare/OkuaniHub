@@ -6,16 +6,262 @@
   height: 40vmin;
   pointer-events: none;
 }
+.scrollTextChange{
+  color: #a19f9f !important;
+}
+.scrolled{
+    background-color:#000;
+    transition: ease 0.5s;
+    box-shadow: 3px 3px 8px rgb(17, 17, 17);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.divide{
+  margin-top: 50px;
+}
+
+.card{
+  margin-bottom: 50px;
+  cursor: pointer;
+  border: none !important;
+  box-shadow:2px 2px 8px #141212;
+  
+}
+.card-body{
+  background-color: rgb(19, 20, 19);
+}
+.card-title{
+  color:#2eba74;
+}
+
+.fa-angle-double-down{
+  cursor: pointer;
+  color:white;
+}
+.App-header-2{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fa-user-plus{
+  color: #1c9e5d;
+  border: 1px solid #1c9e5d ;
+  padding: 17px 15.4px;
+  border-radius: 100px;
+}
+.fa-times{
+  color: #1c9e5d;
+  /* mix-blend-mode:multiply; */
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+.fa-bars{
+  color:#1c9e5d;
+  cursor: pointer;
+  /* mix-blend-mode: multiply; */
+  transition: all .5s ease-in-out;
+}
+.products{
+  margin-top: 100px;
+}
+
+.navbar-nav {
+  cursor: pointer;
+  float: left;
+}
+img{
+  cursor: pointer;
+}
+.navbar-nav a:hover{
+  color:#1c9e5d;
+  transition: 0.4s;
+}
+.vegimg{
+  float:right;
+}
+
+.spacer{
+  padding: 1px;
+}
+ a:focus {
+  text-decoration: none !important;
+  color: #1ae47f;
+}
+button:hover {
+  background-color:#1ae47f;
+  transition: 0.4s;
+}
+
+
+button{
+  background-color:#1c9e5d;
+  border: none;
+  padding: 10px 20px;
+  width: 50px auto;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  text-decoration: none !important;
+  color: white;
+}
+
+.button-1 :hover{
+  cursor: pointer;
+}
+.button-1{
+  background: none;
+  border: 1.5px solid #1c9e5d ;
+  border-radius: 100px;
+}
+.button-2{
+ background-color: #1c9e5d ;
+  border-radius: 100px;
+}
+.button-3{
+  border-radius: 100px;
+  width: 50px auto;
+  padding: 10px 30px;
+}
+
+.navbar-nav{
+ display: flex;
+ text-decoration: none;
+}
+
+hr{
+  border: 1px solid  #1ae47f !important;
+  width: 80px;
+}
+
+.display-4{
+  font-family: 'Architects Daughter', cursive;
+}
+
+#account_btn{
+  color:#fff;
+  mix-blend-mode: difference;
+}
+
+.pageintro{
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.fa-sign-in{
+color:#fff;
+}
+
+
+h3{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.fa-user{
+  margin-top: 20px;
+  color: #1c9e5d;
+  border: 1px solid #1c9e5d ;
+  padding: 14px 20px;
+  border-radius: 100px;
+}
+h4{
+  font-family:'Open Sans', sans-serif ;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.form1 textarea{
+  border-radius: 10px;
+  background-color: rgb(19, 20, 19);
+  border:0.5px solid #1c9e5d;
+}
+.form1 select{
+  border-radius: 10px;
+  background-color: rgb(19, 20, 19);
+  border:0.5px solid #1c9e5d;
+  color: rgb(160, 159, 159);
+ 
+}
+
+.form1 input{
+  border-radius: 10px;
+  background-color: rgb(19, 20, 19);
+  border:0.5px solid #1c9e5d;
+}
+.form1{
+  background-color: rgb(19, 20, 19);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 3px 3px 10px #000000;
+  margin-top: 20px;
+  margin-bottom: 100px auto;
+  border-radius: 10px;
+}
+.fcontent{
+  margin-top:100px;
+}
+
+.menu {
+  display: inline-block;
+  position: relative;
+  justify-content: center;
+ cursor: pointer;
+ transition: all .5s ease-in-out;
+ border: none;
+}
+.hub{
+  color:#1c9e5d !important;
+}
+#section1{
+  margin-bottom: 50px;
+}
+
+.blend{
+  color: #ffff;
+  
+  cursor: pointer;
+}
+.intro{
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.welcome{
+  font-family:'Open Sans', sans-serif;
+}
+.intro-2{
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom:50px;
+}
+.display-5{
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+}
+
+
+.nav-link{
+  color: rgb(209, 209, 209);
+}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1518843875459-f738682238a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80");
+  background-repeat: no-repeat;
+  background-blend-mode:multiply;
+  background-size:cover;
+  background-color: rgb(153, 153, 153);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,10 +269,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header{
+  margin-bottom: 100px;
 }
+
+/* .App-link {
+  color: #61dafb;
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +285,102 @@
     transform: rotate(360deg);
   }
 }
+.fa-phone{
+  color: #1c9e5d;
+  border: 1px solid #1c9e5d ;
+  padding: 15px 20px;
+  border-radius: 100px;
+}
+.fa-signal{
+  color: #1ae47f;
+  border:1px solid #1c9e5d;
+  margin-top: 50px;
+  padding: 30px 30px;
+  border-radius: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.notification{
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  border-radius: 100px;
+}
+.notification .badge {
+  position: absolute;
+  top: -7px;
+  right: -10px;
+  padding: 3px 5px;
+  border-radius: 50%;
+  background: #1c9e5d;
+  color: white;
+}
+.fa-envelope{
+  border: 1px solid #1c9e5d;
+  background-color:#1c9e5d ;
+  padding: 4px 5px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fa-instagram{
+  border: 1px solid #1c9e5d;
+  background-color:#1c9e5d ;
+  padding: 4.5px 6px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fa-twitter{
+  border: 1px solid #1c9e5d;
+  background-color:#1c9e5d ;
+  padding: 4px 5px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fa-facebook{
+  border: 1px solid #1c9e5d;
+  background-color:#1c9e5d ;
+  padding: 4px 8px;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fa-star{
+  color: #1ae47f;
+  margin-top: 50px;
+  border: 1px solid #1c9e5d;
+  padding: 28px 30px;
+  border-radius: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.footer{
+  margin-top: 40vh ;
+  padding: 100px 0px 0px 0px;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  background-color:#000000;
+}
+
+small{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+html body{
+  background-color: #000;
+  color: rgb(238, 236, 236);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
